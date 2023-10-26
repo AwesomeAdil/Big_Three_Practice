@@ -7,9 +7,8 @@ ll exp(ll a, ll b){
   ll val = exp(a, b/2)%MOD;
   val *= val;
   val%=MOD;
-
+  
   if(b%2 == 0) return val;
-
   return (val * a)%MOD;
 }
 
