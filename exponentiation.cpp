@@ -18,5 +18,4 @@ int main(){
     ll a, b; cin>>a>>b;
     cout<<exp(a, b)<<endl;
   }
-
 }
