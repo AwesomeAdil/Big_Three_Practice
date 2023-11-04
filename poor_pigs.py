@@ -10,6 +10,12 @@ denotes a different bucket: Here is an example for 8 buckets and 3 pigs:
                 2 2     2 2  Denoting the twos binary digit
                     4 4 4 4  Denoting the fours binary digit
 
+
+For faster implementation: 
+    The digits before denoted whether they eat it or dont eat it,
+    but when we have more than 1 try, we can also determine, if they dont eat and and when they eat it, giving 
+    us more digits in our base, thus making it base of the number of attempts + 1 
+
 Note how we are smartly using 1/2 the number of buckets for each pig so that each pig death (or survival) splits the graph in half.
 
 Now if we have multiple attempts with the pigs we want to see split up the graph best so that in later attempts we have fewer buckets to check,
