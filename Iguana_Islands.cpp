@@ -5,6 +5,9 @@ using namespace std;
 
 
 
+// the main observation that solved the problem is that we win if 
+// a/b is odd
+
 // This is the main part of the algorithm that calculates Grundy Number
 // Must see through observation, before was calculating grundy numbers
 // using dp, however, this observation speeds up memory, 
